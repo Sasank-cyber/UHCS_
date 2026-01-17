@@ -1,20 +1,87 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+AI-Powered • Privacy-First • Deployable for Indian College Hostels
 
-This contains everything you need to run your app locally.
+UHCS is an intelligent, privacy-preserving hostel management system designed specifically for Indian college hostels.
+It combines AI-based complaint prioritization with a secure, non-invasive hostel attendance system, ensuring that critical issues are resolved first while maintaining student privacy and administrative efficiency.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+🚀 Key Highlights
 
-## Run Locally
+🔥 AI-prioritized complaint handling (not first-come-first-serve)
 
-**Prerequisites:**  Node.js
+🧠 Explainable AI — every priority score is justified
 
+🔐 Privacy-preserving attendance (yes biometrics, no cameras)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+📊 Admin analytics dashboard with reports & graphs
+
+🇮🇳 Designed for real Indian hostel workflows
+
+⚡ Demo-ready & deployable with minimal changes
+
+🖼️ Project Screenshots
+Landing Page (Student & Admin Portals)
+
+Student Login Modal
+
+Student Dashboard
+
+AI Complaint Classification (NLP)
+
+Image-Based Urgency Detection
+
+Explainable AI Output
+
+📌 Note: Place all images inside an /images folder in your repo and rename accordingly.
+
+🧠 Problem We Solve
+
+Traditional hostel systems:
+
+Handle complaints first-come-first-serve
+
+Miss urgent safety issues
+
+Rely on manual attendance
+
+Use invasive tracking methods
+
+UHCS fixes this by:
+
+Prioritizing complaints based on urgency, severity, repetition, category, time & location
+
+Auto-escalating critical and repeated issues
+
+Explaining why an issue is high priority (transparent AI)
+
+Allowing attendance only via hostel Wi-Fi + registered device
+
+Flagging suspicious attendance using AI anomaly detection
+
+⚙️ System Architecture (High Level)
+Student Portal ──┐
+                 ├── Flask Backend ── NLP + AI Engine ── Admin Dashboard
+Admin Portal ────┘
+
+👨‍🎓 Student Portal Features
+
+✅ Wi-Fi verified hostel attendance
+
+🕒 Time-window restricted check-in
+
+📝 File complaints (text + optional image)
+
+📌 Track complaint status
+
+🧠 AI-classified complaint category
+
+🛡️ Admin (Warden) Portal Features
+
+📊 Attendance percentage graphs & pie charts
+
+🚨 High-priority complaint alerts
+
+📈 Complaint trends & repetition analysis
+
+🔍 Explainable AI priority reasoning
+
+⚠️ Anomaly detection for attendance misuse
