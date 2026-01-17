@@ -1,0 +1,8 @@
+
+{
+  "name": "HostelSmart: AI-Powered Management System",
+  "description": "An integrated hostel management solution featuring AI-driven complaint prioritization with explainable reasoning and a privacy-preserving WiFi-based attendance system.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
